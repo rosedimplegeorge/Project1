@@ -1,11 +1,11 @@
 # Project1
 # Jeopardy 
 
-Jeopardy Quiz Game . 
-
-
+Jeopardy Quiz Game - This is a quiz game where the user gets to choose the next question by choosing from a category and then choosing a point amount (100 to 500). 
 
 # Instuctions 
+
+
 
 # User Story
 
