@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Rose's Jeopardy Game</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.css"/>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.css" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" /> -->
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
     <script src="main.js"></script>
 </head>
@@ -17,12 +18,30 @@
        </div>
        <div class="subtitle">
            <h2>Instructions</h2>
-            <ol>
+            <ul>
                <li>Pick a category and a point value.</li>
                <li>Click on the chosen box for the question.</li>
                <li>Play until you hit the Final Question for the mega Win ...</li>
-            </ol>
+            </ul>
        </div>
     </section>
+    <section class="gameBoardSection">
+        <div class="gameBoard">
+            <div class="catogory1">
+                <h3 class="moviesCatogoty">Movies</h3>
+                <h5><button>$100</button></h5>
+                <h5><button>$200</button></h5>
+                <h5><button>$300</button></h5>
+                <h5><button>$400</button></h5>
+                <h5><button>$500</button></h5>
+            </div>     
+        </div>
+    </section>
+    <section class="finalQuestion">
+        <div class="finalQuestionButton"><button>FINAL QUESTION</button></div>
+    </section>
+    <div class="footerSection">
+        <footer class="scoreSection"> Score :</footer>
+    </div>
 </body>
 </html>

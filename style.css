@@ -10,4 +10,20 @@ h2{
     text-decoration: underline;
     font-weight: bold;
 }
-
+.mainSection{
+    background-color: lightgreen;
+}
+.gameBoard{
+    background-color: lightcoral;
+}
+.catogory1{
+display: flex;
+flex-direction: column;
+}
+.finalQuestionButton{
+    text-align: center;
+    background-color: blue;
+}
+.scoreSection{
+    background: lawngreen;
+}
