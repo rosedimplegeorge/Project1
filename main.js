@@ -19,7 +19,16 @@ var closeBtn = document.getElementById('closeBtn')
 //Listen for a click
 modalButton.addEventListener('click',openModal);
 
-//Function openModal
+//Listen for a click
+closeBtn.addEventListener('click',closeModal);
+
+//Function openModal- displays the questions- opens the modal block
 function openModal(){
    modal.style.display = 'block';
 }
+
+//Function closeModal
+function closeModal(){
+    modal.style.display = 'none';
+ }
+ 
