@@ -18,6 +18,7 @@ var modalButton5 = document.getElementById('bible500');
 
 //Get modalelememt
 var modal = document.getElementById('modalQues')
+// var modal11 = document.getElementById('modalQues11')
 
 //Get CloseBtn Element
 var closeBtn = document.getElementById('closeBtn')
