@@ -61,7 +61,32 @@ $("#bible200").click(function(){
     $("#bible200").hide();
 });
 
-
+//Get Button Element
+var button13 = document.getElementById('bible300');
+//Listen for a click
+button13.addEventListener('click',openPrompt3);
+//Function openPrompt
+function openPrompt3(){
+    let question3 = prompt("What's the Longest chapter in Psalms?")
+    if (question3 === "119"){
+        alert("Correct Answer and you get Points for answering it correctly !" )
+        totalScore = totalScore + 300
+        console.log("The Total score is   " +totalScore)
+    }
+    else if (question3 != "119") {
+        alert("Wrong Answer- You Lost some Points ! Be careful answering next time !")
+        totalScore = totalScore - 300
+        console.log("The Total score is   " +totalScore)
+    }
+        // finalScore.push = totalScore;
+        console.log("The Final Score is " + totalScore)
+        document.getElementById('totalScore').innerHTML = totalScore;
+        
+}
+//Hide the button once it's clicked
+$("#bible300").click(function(){
+    $("#bible300").hide();
+});
 
 // var modalButton1 = document.getElementById('bible100');
 // var modalButton2 = document.getElementById('bible200');
