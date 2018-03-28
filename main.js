@@ -88,6 +88,33 @@ $("#bible300").click(function(){
     $("#bible300").hide();
 });
 
+//Get Button Element
+var button14 = document.getElementById('bible400');
+//Listen for a click
+button14.addEventListener('click',openPrompt4);
+//Function openPrompt
+function openPrompt4(){
+    let question4 = prompt("What's the Shortest chapter in Psalms?")
+    if (question4 === "117"){
+        alert("Correct Answer and you get Points for answering it correctly !" )
+        totalScore = totalScore + 400
+        console.log("The Total score is   " +totalScore)
+    }
+    else if (question4 != "117") {
+        alert("Wrong Answer- You Lost some Points ! Be careful answering next time !")
+        totalScore = totalScore - 400
+        console.log("The Total score is   " +totalScore)
+    }
+        // finalScore.push = totalScore;
+        console.log("The Final Score is " + totalScore)
+        document.getElementById('totalScore').innerHTML = totalScore;
+        
+}
+//Hide the button once it's clicked
+$("#bible400").click(function(){
+    $("#bible400").hide();
+});
+
 // var modalButton1 = document.getElementById('bible100');
 // var modalButton2 = document.getElementById('bible200');
 // var modalButton3 = document.getElementById('bible300');
