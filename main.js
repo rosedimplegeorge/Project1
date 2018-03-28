@@ -115,6 +115,33 @@ $("#bible400").click(function(){
     $("#bible400").hide();
 });
 
+//Get Button Element
+var button15 = document.getElementById('bible500');
+//Listen for a click
+button15.addEventListener('click',openPrompt5);
+//Function openPrompt
+function openPrompt5(){
+    let question5 = prompt("How many books are there in the bible?")
+    if (question5 === "66"){
+        alert("Correct Answer and you get Points for answering it correctly !" )
+        totalScore = totalScore + 500
+        console.log("The Total score is   " +totalScore)
+    }
+    else if (question5 != "66") {
+        alert("Wrong Answer- You Lost some Points ! Be careful answering next time !")
+        totalScore = totalScore - 500
+        console.log("The Total score is   " +totalScore)
+    }
+        // finalScore.push = totalScore;
+        console.log("The Final Score is " + totalScore)
+        document.getElementById('totalScore').innerHTML = totalScore;
+        
+}
+//Hide the button once it's clicked
+$("#bible500").click(function(){
+    $("#bible500").hide();
+});
+
 // var modalButton1 = document.getElementById('bible100');
 // var modalButton2 = document.getElementById('bible200');
 // var modalButton3 = document.getElementById('bible300');
