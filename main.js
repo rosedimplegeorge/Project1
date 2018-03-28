@@ -1,21 +1,18 @@
 $(document).ready(function () {
     alert("Do you want to play Jeopordy ? Start Playing by selecting a question in the game board after clicking OK button")
 
-//     $("#bible100").click(function(){
-//         //  alert("Here  you go Answer the Questions ")
-        
+//      $("#bible100").click(function(){
+//      alert("Here  you go Answer the Questions ")       
 // });
 });
 
 let totalScore = 0;
-// let finalScore = [];
-
 //Get Button Element
 var button11 = document.getElementById('bible100');
 //Listen for a click
-button11.addEventListener('click',openPrompt);
+button11.addEventListener('click',openPrompt1);
 //Function openPrompt
-function openPrompt(){
+function openPrompt1(){
     let question1 = prompt("What's the very first book in the bible?(Please answer in LOWER CASE ONLY")
     if (question1 === "genesis"){
         alert("Correct Answer and you get Points for answering it correctly !" )
@@ -28,14 +25,43 @@ function openPrompt(){
         console.log("The Total score is   " +totalScore)
     }
         // finalScore.push = totalScore;
-        console.log("The Final Score is " + totalScore + "Congratulations !")
+        console.log("The Final Score is " + totalScore)
         document.getElementById('totalScore').innerHTML = totalScore;
         
 }
-
+//Hide the button once it's clicked
 $("#bible100").click(function(){
     $("#bible100").hide();
 });
+
+//Get Button Element
+var button12 = document.getElementById('bible200');
+//Listen for a click
+button12.addEventListener('click',openPrompt2);
+//Function openPrompt
+function openPrompt2(){
+    let question2 = prompt("What's the very last book in the bible?(Please answer in LOWER CASE ONLY")
+    if (question2 === "revelation"){
+        alert("Correct Answer and you get Points for answering it correctly !" )
+        totalScore = totalScore + 200
+        console.log("The Total score is   " +totalScore)
+    }
+    else if (question2 != "revelation") {
+        alert("Wrong Answer- You Lost some Points ! Be careful answering next time !")
+        totalScore = totalScore - 200
+        console.log("The Total score is   " +totalScore)
+    }
+        // finalScore.push = totalScore;
+        console.log("The Final Score is " + totalScore)
+        document.getElementById('totalScore').innerHTML = totalScore;
+        
+}
+//Hide the button once it's clicked
+$("#bible200").click(function(){
+    $("#bible200").hide();
+});
+
+
 
 // var modalButton1 = document.getElementById('bible100');
 // var modalButton2 = document.getElementById('bible200');
