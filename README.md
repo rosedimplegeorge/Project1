@@ -12,7 +12,7 @@ Jeopardy Quiz Game - This is a quiz game where the user gets to choose the next 
     5. The dollar values for the selected question disappears (hides) after each question is answered.
     6. Score increases/decreases accordingly.
     7. Once you CLICK on the button , even if the user doesn't answer , it takes it as a WRONG Answer . 
-    
+
 ```
 
 # User Story
@@ -22,4 +22,15 @@ https://trello.com/b/jEMBIDpT/project-1
 # Wire Frame 
 
 https://i.imgur.com/sJdjQP6.jpg
+
+# Bit Baloon Link
+
+
+# Future Developements
+
+```
+    1. Use Arrays, Objects and JQuery to make the code DRY.
+    2. Add more functionalities like Keeping the Final Question disabled untill all the other questions are answered.
+    3. Use Modal with radiobuttons or checkboxes instead of Prompt.
+```
 
