@@ -219,6 +219,59 @@ function openPrompt23(){
 $("#general300").click(function(){
     $("#general300").hide();
 });
+
+var button24 = document.getElementById('general400');
+//Listen for a click
+button24.addEventListener('click',openPrompt24);
+//Function openPrompt
+function openPrompt24(){
+    let question24 = prompt("Who is the Prime minister of CANADA?")
+    if (question24 === "truedo"){
+        alert("Correct Answer and you get Points for answering it correctly !" )
+        totalScore = totalScore + 400
+        console.log("The Total score is   " +totalScore)
+    }
+    else if (question24 != "truedo") {
+        alert("Wrong Answer- You Lost some Points ! Be careful answering next time !")
+        totalScore = totalScore - 400
+        console.log("The Total score is   " +totalScore)
+    }
+        // finalScore.push = totalScore;
+        console.log("The Final Score is " + totalScore)
+        document.getElementById('totalScore').innerHTML = totalScore;
+        
+}
+//Hide the button once it's clicked
+$("#general400").click(function(){
+    $("#general400").hide();
+});
+
+var button25 = document.getElementById('general500');
+//Listen for a click
+button25.addEventListener('click',openPrompt25);
+//Function openPrompt
+function openPrompt25(){
+    let question25 = prompt("Capital of CANADA?")
+    if (question25 === "ottawa"){
+        alert("Correct Answer and you get Points for answering it correctly !" )
+        totalScore = totalScore + 500
+        console.log("The Total score is   " +totalScore)
+    }
+    else if (question25 != "ottawa") {
+        alert("Wrong Answer- You Lost some Points ! Be careful answering next time !")
+        totalScore = totalScore - 500
+        console.log("The Total score is   " +totalScore)
+    }
+        // finalScore.push = totalScore;
+        console.log("The Final Score is " + totalScore)
+        document.getElementById('totalScore').innerHTML = totalScore;
+        
+}
+//Hide the button once it's clicked
+$("#general500").click(function(){
+    $("#general500").hide();
+});
+
 // var modalButton1 = document.getElementById('bible100');
 // var modalButton2 = document.getElementById('bible200');
 // var modalButton3 = document.getElementById('bible300');
