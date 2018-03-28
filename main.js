@@ -167,6 +167,58 @@ function openPrompt21(){
 $("#general100").click(function(){
     $("#general100").hide();
 });
+
+var button22 = document.getElementById('general200');
+//Listen for a click
+button22.addEventListener('click',openPrompt22);
+//Function openPrompt
+function openPrompt22(){
+    let question22 = prompt("Who is the FIRST President of the US?")
+    if (question22 === "washington"){
+        alert("Correct Answer and you get Points for answering it correctly !" )
+        totalScore = totalScore + 200
+        console.log("The Total score is   " +totalScore)
+    }
+    else if (question22 != "washington") {
+        alert("Wrong Answer- You Lost some Points ! Be careful answering next time !")
+        totalScore = totalScore - 200
+        console.log("The Total score is   " +totalScore)
+    }
+        // finalScore.push = totalScore;
+        console.log("The Final Score is " + totalScore)
+        document.getElementById('totalScore').innerHTML = totalScore;
+        
+}
+//Hide the button once it's clicked
+$("#general200").click(function(){
+    $("#general200").hide();
+});
+
+var button23 = document.getElementById('general300');
+//Listen for a click
+button23.addEventListener('click',openPrompt23);
+//Function openPrompt
+function openPrompt23(){
+    let question23 = prompt("Who is the Prime minister of INDIA?")
+    if (question23 === "modi"){
+        alert("Correct Answer and you get Points for answering it correctly !" )
+        totalScore = totalScore + 300
+        console.log("The Total score is   " +totalScore)
+    }
+    else if (question23 != "modi") {
+        alert("Wrong Answer- You Lost some Points ! Be careful answering next time !")
+        totalScore = totalScore - 300
+        console.log("The Total score is   " +totalScore)
+    }
+        // finalScore.push = totalScore;
+        console.log("The Final Score is " + totalScore)
+        document.getElementById('totalScore').innerHTML = totalScore;
+        
+}
+//Hide the button once it's clicked
+$("#general300").click(function(){
+    $("#general300").hide();
+});
 // var modalButton1 = document.getElementById('bible100');
 // var modalButton2 = document.getElementById('bible200');
 // var modalButton3 = document.getElementById('bible300');
