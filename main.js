@@ -142,6 +142,31 @@ $("#bible500").click(function(){
     $("#bible500").hide();
 });
 
+var button21 = document.getElementById('general100');
+//Listen for a click
+button21.addEventListener('click',openPrompt21);
+//Function openPrompt
+function openPrompt21(){
+    let question21 = prompt("Who is the President of the US?")
+    if (question21 === "trump"){
+        alert("Correct Answer and you get Points for answering it correctly !" )
+        totalScore = totalScore + 100
+        console.log("The Total score is   " +totalScore)
+    }
+    else if (question21 != "trump") {
+        alert("Wrong Answer- You Lost some Points ! Be careful answering next time !")
+        totalScore = totalScore - 100
+        console.log("The Total score is   " +totalScore)
+    }
+        // finalScore.push = totalScore;
+        console.log("The Final Score is " + totalScore)
+        document.getElementById('totalScore').innerHTML = totalScore;
+        
+}
+//Hide the button once it's clicked
+$("#general100").click(function(){
+    $("#general100").hide();
+});
 // var modalButton1 = document.getElementById('bible100');
 // var modalButton2 = document.getElementById('bible200');
 // var modalButton3 = document.getElementById('bible300');
