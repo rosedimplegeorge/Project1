@@ -7,7 +7,7 @@ $(document).ready(function () {
 });
 });
 
-let score = 0;
+let totalScore = 0;
 
 //Get Button Element
 var button11 = document.getElementById('bible100');
@@ -15,7 +15,18 @@ var button11 = document.getElementById('bible100');
 button11.addEventListener('click',openPrompt);
 //Function openPrompt
 function openPrompt(){
-    let question1 = prompt("What's the very first book in the bible?")
+    let question1 = prompt("What's the very first book in the bible?(Please answer in LOWER CASE ONLY")
+    if (question1 === "genesis"){
+        alert("Correct Answer and you get Points for answering it correctly !" )
+        totalScore = totalScore + 100
+        console.log("The Total score is   " +totalScore)
+    }
+    else if (question1 != "genesis") {
+        alert("Wrong Answer- You Lost some Points ! Be careful answering next time !")
+        totalScore = totalScore - 100
+        console.log("The Total score is   " +totalScore)
+    }
+        
 }
 
 
