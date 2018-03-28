@@ -8,6 +8,7 @@ $(document).ready(function () {
 });
 
 let totalScore = 0;
+// let finalScore = [];
 
 //Get Button Element
 var button11 = document.getElementById('bible100');
@@ -26,8 +27,11 @@ function openPrompt(){
         totalScore = totalScore - 100
         console.log("The Total score is   " +totalScore)
     }
-        
+        // finalScore.push = totalScore;
+        console.log("The Final Score is " + totalScore + "Congratulations !")
+        document.getElementById('totalScore').innerHTML = totalScore;
 }
+
 
 
 // var modalButton1 = document.getElementById('bible100');
