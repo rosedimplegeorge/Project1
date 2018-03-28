@@ -1,10 +1,10 @@
 $(document).ready(function () {
     alert("Do you want to play Jeopordy ? Start Playing by selecting a question in the game board after clicking OK button")
 
-    $("#bible100").click(function(){
-        //  alert("Here  you go Answer the Questions ")
+//     $("#bible100").click(function(){
+//         //  alert("Here  you go Answer the Questions ")
         
-});
+// });
 });
 
 let totalScore = 0;
@@ -30,6 +30,7 @@ function openPrompt(){
         // finalScore.push = totalScore;
         console.log("The Final Score is " + totalScore + "Congratulations !")
         document.getElementById('totalScore').innerHTML = totalScore;
+        
 }
 
 
