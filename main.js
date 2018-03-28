@@ -33,7 +33,9 @@ function openPrompt(){
         
 }
 
-
+$("#bible100").click(function(){
+    $("#bible100").hide();
+});
 
 // var modalButton1 = document.getElementById('bible100');
 // var modalButton2 = document.getElementById('bible200');
