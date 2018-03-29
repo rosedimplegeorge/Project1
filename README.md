@@ -16,14 +16,16 @@ Jeopardy Quiz Game - This is a quiz game where the user gets to choose the next 
 ```
 
 # User Story
+[User Stories](https://trello.com/b/jEMBIDpT/project-1)
 
-https://trello.com/b/jEMBIDpT/project-1
 
 # Wire Frame 
+![](https://i.imgur.com/sJdjQP6.jpg)
 
-https://i.imgur.com/sJdjQP6.jpg
 
 # Bit Baloon Link
+[click to play](http://clever-swartz-16d5a5.bitballoon.com/)
+<!-- clever-swartz-16d5a5.bitballoon.com -->
 
 
 # Future Developements
