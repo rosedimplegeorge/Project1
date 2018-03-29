@@ -1,19 +1,21 @@
 # Project1
+
 # Jeopardy 
 
-Jeopardy Quiz Game - This is a quiz game where the user gets to choose the next question by choosing from a category and then choosing a point amount (100 to 500). 
+Jeopardy Quiz Game - This is a quiz game where the user chooses a question from any given Catogory and Selects/Inputs the answer .
 
 # Instuctions 
 ```
     1. Pick a category and a point value.
-    2. Click on the chosen box for the question.
-    3. Question with the multiple choice answer option appears with a 'Submit' option.
-    4. Select the answer and click on 'Submit' button
+    2. Click on any button(100,200 etc) under selected catogory(BIBLE,GENERAL)for the question.
+    3. Question apprears in the prompt with a field to answer with an 'OK' button.
+    4. Input the answer and click on 'OK' button .
     5. The dollar values for the selected question disappears (hides) after each question is answered.
-    6. Score increases/decreases accordingly.
+    6. Score increases/decreases accordingly and appears on the footer bar.
     7. Once you CLICK on the button , even if the user doesn't answer , it takes it as a WRONG Answer . 
 
 ```
+# 
 
 # User Story
 [User Stories](https://trello.com/b/jEMBIDpT/project-1)

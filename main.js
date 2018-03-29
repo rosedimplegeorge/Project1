@@ -1,9 +1,5 @@
 $(document).ready(function () {
-    alert("Do you want to play Jeopordy ? Start Playing by selecting a question in the game board after clicking OK button")
-
-//      $("#bible100").click(function(){
-//      alert("Here  you go Answer the Questions ")       
-// });
+    alert("Do you want to play Jeopordy ? Click 'OK' and click on any button under any catogory to start the game ")
 });
 
 let totalScore = 0;
