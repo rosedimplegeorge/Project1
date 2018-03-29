@@ -2,17 +2,37 @@
 body{
     max-width: 100%;
     min-width: 100px; 
+    /* background-color: floralwhite; */
 }
-
+/* @media (max-width: 400px){
+    body{
+      background: tomato;
+    }
+  } */
 h1{
     text-align: center;
+    padding: 20px;
 }
 h2{
     text-decoration: underline;
     font-weight: bold;
+    
+}
+ul{
+    padding: 20px;
+    font-weight: bold;
 }
 .mainSection{
+
     background-color: greenyellow;
+}
+.catogory1{
+    font-weight: bold;
+    font-size: 20px;
+}
+.catogory2{
+    font-weight: bold;
+    font-size: 20px;
 }
 
 .gameBoardSection{
@@ -59,6 +79,7 @@ h2{
     background-color: blue;
 } */
 .scoreSection{
-    background: lawngreen;
+    background: greenyellow;
     text-align: center;
+    font-size: 50px;
 }
