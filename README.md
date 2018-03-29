@@ -29,11 +29,13 @@ Jeopardy Quiz Game - This is a quiz game where the user chooses a question from 
 <!-- clever-swartz-16d5a5.bitballoon.com -->
 
 # Resources
+```
+1. [W3Schools](https://www.w3schools.com/jquery/default.asp)
+2. [YouTube](https://www.youtube.com/watch?v=e57ReoUn6kM&t=6s)
+3. [jQuery](http://api.jquery.com/)
+4. [A Smarter Way To Learn Javascript] (https://git.generalassemb.ly/atl-wdi/wdi-curriculum/blob/master/homework/javaScript/a-smarter-way-60-89.md)
 
-[W3Schools](https://www.w3schools.com/jquery/default.asp)
-[YouTube](https://www.youtube.com/watch?v=e57ReoUn6kM&t=6s)
-[jQuery](http://api.jquery.com/)
-[A Smarter Way To Learn Javascript](https://git.generalassemb.ly/atl-wdi/wdi-curriculum/blob/master/homework/javaScript/a-smarter-way-60-89.md)
+```
 
 # Technologies Used
 
