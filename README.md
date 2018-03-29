@@ -15,7 +15,6 @@ Jeopardy Quiz Game - This is a quiz game where the user chooses a question from 
     7. Once you CLICK on the button , even if the user doesn't answer , it takes it as a WRONG Answer . 
 
 ```
-# 
 
 # User Story
 [User Stories](https://trello.com/b/jEMBIDpT/project-1)
@@ -29,6 +28,12 @@ Jeopardy Quiz Game - This is a quiz game where the user chooses a question from 
 [click to play](http://clever-swartz-16d5a5.bitballoon.com/)
 <!-- clever-swartz-16d5a5.bitballoon.com -->
 
+# Resources
+
+[W3Schools](https://www.w3schools.com/jquery/default.asp)
+[YouTube](https://www.youtube.com/watch?v=e57ReoUn6kM&t=6s)
+[jQuery](http://api.jquery.com/)
+[A Smarter Way To Learn Javascript](https://git.generalassemb.ly/atl-wdi/wdi-curriculum/blob/master/homework/javaScript/a-smarter-way-60-89.md)
 
 # Future Developements
 
