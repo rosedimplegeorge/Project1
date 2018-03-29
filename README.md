@@ -35,6 +35,17 @@ Jeopardy Quiz Game - This is a quiz game where the user chooses a question from 
 [jQuery](http://api.jquery.com/)
 [A Smarter Way To Learn Javascript](https://git.generalassemb.ly/atl-wdi/wdi-curriculum/blob/master/homework/javaScript/a-smarter-way-60-89.md)
 
+# Technologies Used
+
+```
+    1. Java Script
+    2. JQuery
+    3. HTML
+    4. CSS
+    5. BootStrap
+
+```
+
 # Future Developements
 
 ```
