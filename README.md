@@ -50,7 +50,7 @@ Jeopardy Quiz Game - This is a quiz game where the user chooses a question from 
 # Future Developements
 
 ```
-    1. Use Arrays, Objects and JQuery to make the code DRY.
+    1. Use Arrays, Objects and more JQuery to make the code DRY.
     2. Add more functionalities like Keeping the Final Question disabled untill all the other questions are answered.
     3. Use Modal with radiobuttons or checkboxes instead of Prompt.
 ```

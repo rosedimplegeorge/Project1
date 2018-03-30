@@ -2,13 +2,8 @@
 body{
     max-width: 100%;
     min-width: 100px; 
-    /* background-color: floralwhite; */
 }
-/* @media (max-width: 400px){
-    body{
-      background: tomato;
-    }
-  } */
+
 h1{
     text-align: center;
     padding: 20px;
@@ -74,10 +69,6 @@ ul{
     justify-content: space-evenly;
 }
 
-/* .finalQuestionButton{
-    text-align: center;
-    background-color: blue;
-} */
 .scoreSection{
     background: greenyellow;
     text-align: center;
